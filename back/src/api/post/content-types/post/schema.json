@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "posts",
+  "info": {
+    "singularName": "post",
+    "pluralName": "posts",
+    "displayName": "Post",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "maxLength": 100
+    },
+    "introduction": {
+      "type": "richtext"
+    },
+    "description_overview": {
+      "type": "richtext"
+    },
+    "use_cases": {
+      "type": "richtext"
+    },
+    "key_features": {
+      "type": "richtext"
+    },
+    "benefits_impact": {
+      "type": "richtext"
+    },
+    "integration_implementation": {
+      "type": "richtext"
+    },
+    "challenges_limitations": {
+      "type": "richtext"
+    },
+    "future_trends_developments": {
+      "type": "richtext"
+    },
+    "conclusion": {
+      "type": "richtext"
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::category.category",
+      "mappedBy": "posts"
+    }
+  }
+}
