@@ -1,13 +1,19 @@
 import { Router } from "./Router/Router.jsx";
+import {Header} from './Components/Header/Header.jsx'
+import {Footer} from './Components/Footer/Footer.jsx'
 
 function App() {
   return (
     <div>
-      <header></header>
-      <main>
+      <header>
+        <Header/>
+      </header>
+      <main className="main">
         <Router />
       </main>
-      <footer></footer>
+      <footer>
+        <Footer/>
+      </footer>
     </div>
   );
 }
