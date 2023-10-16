@@ -26,3 +26,40 @@ body {
 .home{  
   width:1020px
 }
+
+@media (min-width: 640px) {
+  .home-h1{
+    font-size: 3.75rem;
+    line-height: 1;
+    --tw-text-opacity: 1;
+    color: rgb(17 24 39 / var(--tw-text-opacity));
+    letter-spacing: -.025em;
+    font-weight: 900;
+    line-height: 3.5rem;
+  }
+  .home-h2{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    letter-spacing: -.025em;
+    --tw-text-opacity: 1;
+    color: rgb(17 24 39 / var(--tw-text-opacity));
+    font-weight: 800;
+  }
+  .home-text{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    --tw-text-opacity: 1;
+    color: rgb(107 114 128 / var(--tw-text-opacity));
+    line-height: 1.625;
+    font-size: 1.125rem;
+    margin-top: 1rem;
+  }
+  .home-section-container{
+      padding-left: 1rem;
+      padding-right: 1rem;
+      max-width: 36rem;
+      margin-left: auto;
+      margin-right: auto; 
+      height:428px     
+  }
+}
