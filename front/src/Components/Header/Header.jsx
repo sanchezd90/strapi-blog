@@ -3,8 +3,8 @@ import './styles.css';
 
 export const Header = () => {
   return (
-    <div class="container">
-        <img class="logo" src={'/logo.png'} alt="Logo" />
+    <div className="container">
+        <img className="logo" src={'/logo.png'} alt="Logo" />
         <h1>Streamlining</h1>
     </div>
   )
