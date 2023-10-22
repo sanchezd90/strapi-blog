@@ -1,9 +1,8 @@
 import React from "react";
-import image1 from "/image1.png";
-import image2 from "/image2.png";
-import image3 from "/image3.png";
-import image4 from "/image4.png";
-import "./styles.css";
+import image1 from "public/image1.png";
+import image2 from "public/image2.png";
+import image3 from "public/image3.png";
+import image4 from "public/image4.png";
 import { SectionRowText } from "../../Components/Home/SectionRowText";
 
 export const Home = () => {

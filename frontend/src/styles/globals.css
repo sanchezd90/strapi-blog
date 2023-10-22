@@ -63,3 +63,69 @@ body {
       height:428px     
   }
 }
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 60px;
+  margin-right: 10px; /* Adjust the margin as needed */
+}
+
+.post-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px; /* Adjust this to your preference */
+}
+
+.post-card-container {
+  width: 100%;
+}
+
+.home-grid {
+  width: 1366px;
+  
+
+  display: grid;
+  grid-template-rows: repeat(4, auto);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;  
+}
+
+.home-stack {
+  width: 1366px;
+
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  grid-template-columns: 1fr;
+  gap: 8px;
+}
+.left-rounded,
+.right-rounded {
+  width: 100%;
+  height: 340px;
+  object-fit: cover;
+}
+
+.left-rounded {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.right-rounded {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+
+.right-rounded {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.home-images {
+  display: flex;
+  align-items: center;
+}

@@ -1,5 +1,4 @@
 import React from "react";
-import { BrowserRouter, Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
