@@ -139,3 +139,40 @@ a {
   text-decoration: none;
   color:inherit
 }
+
+.post-container {
+  width: 80%;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.post-title {
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.post-date {
+  text-align: center;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.post-content {
+  line-height: 1.6;
+}
+
+.post-intro {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 20px 0 10px;
+}
+
+p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}

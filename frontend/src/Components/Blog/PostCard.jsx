@@ -1,7 +1,8 @@
 import React from "react";
 import Image from 'next/image';
+import Link from "next/link";
 
-export const PostCard = ({ post, image }) => {
+export const PostCard = ({ postId, post, image }) => {
   const cardStyle = {
     border: "1px solid #eaeaea",
     borderRadius: "5px",
@@ -37,7 +38,9 @@ export const PostCard = ({ post, image }) => {
 
   return (
     <div style={cardStyle}>
-      <h2 style={titleStyle}>{post?.title}</h2>
+      <Link href={`/blog/${postId}`}>
+        <h2 style={titleStyle}>{post?.title}</h2>
+      </Link>
       {<Image src={image} alt="Post" style={imageStyle} />}
       <p style={contentStyle}>
         {post?.introduction} {post?.description_overview}
