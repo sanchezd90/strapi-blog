@@ -42,7 +42,7 @@ export const Blog = () => {
       {!loading &&
         posts.map((post,index) => (
           <div key={post.id} className="post-card-container">
-            <PostCard postId={post.id} post={post.attributes} image={images[index]}/>
+            <PostCard postId={post.id} post={post.attributes} image={images[index%5]}/>
           </div>
         ))}
     </div>
