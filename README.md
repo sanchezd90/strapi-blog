@@ -16,7 +16,7 @@ The following was achieved using ChatGPT:
 3. Based on the strucutre for the post, chatGPT built the json schema for it's corresponding type.
 4. ChatGPT built a script that made a POST request to the API with the content, in order to store it in the database.
 
-## Frontend
+### Frontend
 
 1. The design for the Home page was created using [Mixo](https://app.mixo.io/ai-website-builder)
 2. The images for the site were created using [Stable Diffusion](https://stablediffusionweb.com/)
