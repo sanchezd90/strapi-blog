@@ -64,9 +64,14 @@ body {
   }
 }
 
-.container {
+.header-container {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
+}
+
+.brand-container {
+  display: flex;
+  align-items: center;  
 }
 
 .logo {
@@ -128,4 +133,9 @@ body {
 .home-images {
   display: flex;
   align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color:inherit
 }

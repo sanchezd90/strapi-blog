@@ -4,6 +4,7 @@ import image2 from "public/image2.png";
 import image3 from "public/image3.png";
 import image4 from "public/image4.png";
 import { SectionRowText } from "../../Components/Home/SectionRowText";
+import Image from "next/image";
 
 export const Home = () => {
   return (
@@ -17,10 +18,10 @@ export const Home = () => {
           />
         </div>
         <div className="home-images">
-          <img className="left-rounded" src={image1} alt="image1" />
+          <Image className="left-rounded" src={image1} alt="image1"/>
         </div>
         <div>
-          <img className="right-rounded" src={image2} alt="image2" />
+          <Image className="right-rounded" src={image2} alt="image2"/>
         </div>
         <div>
           <SectionRowText
@@ -35,10 +36,10 @@ export const Home = () => {
           />
         </div>
         <div>
-          <img className="left-rounded" src={image3} alt="image3" />
+          <Image className="left-rounded" src={image3} alt="image3"/>
         </div>
         <div>
-          <img className="right-rounded" src={image4} alt="image4" />
+          <Image className="right-rounded" src={image4} alt="image4"/>
         </div>
         <div>
           <SectionRowText

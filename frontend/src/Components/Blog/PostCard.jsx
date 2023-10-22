@@ -1,4 +1,5 @@
 import React from "react";
+import Image from 'next/image';
 
 export const PostCard = ({ post, image }) => {
   const cardStyle = {
@@ -37,7 +38,7 @@ export const PostCard = ({ post, image }) => {
   return (
     <div style={cardStyle}>
       <h2 style={titleStyle}>{post?.title}</h2>
-      {<img src={image} alt="Post" style={imageStyle} />}
+      {<Image src={image} alt="Post" style={imageStyle} />}
       <p style={contentStyle}>
         {post?.introduction} {post?.description_overview}
       </p>
