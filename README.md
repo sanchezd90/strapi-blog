@@ -22,7 +22,7 @@ The following was achieved using ChatGPT:
 2. The images for the site were created using [Stable Diffusion](https://stablediffusionweb.com/)
 3. JSX components, including styles and API integration logic, were created almost entirely using ChatGPT. Here's a [prompt example](./promptExamples.md)
 
-The entire process took less than a 8 hours. 
+The entire process took less than a 16 hours. 
 
 ## Getting Started
 ### Prerequisites
